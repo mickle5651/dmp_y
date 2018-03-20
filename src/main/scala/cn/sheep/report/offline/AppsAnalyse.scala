@@ -26,7 +26,6 @@ object AppsAnalyse {
 			System.exit(0)
 		}
 
-		System.setProperty("hadoop.home.dir", "D:\\hadoop-2.6.1")
 
 		// 接收参数
 		val Array(datapath, appmapping, outputpath) = args
